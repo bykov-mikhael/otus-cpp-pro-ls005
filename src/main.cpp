@@ -20,5 +20,9 @@ int main() {
 
   view->importDocument();
 
+  view->addGraphObject();
+
+  view->removeGraphObject();
+
   return EXIT_SUCCESS;
 }

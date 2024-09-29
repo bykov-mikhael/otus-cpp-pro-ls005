@@ -21,3 +21,13 @@ void Controller::importDocument() {
   std::cout << "controller -> importDocument" << std::endl;
   m_model->importDocument();
 }
+
+void Controller::addGraphObject() {
+  std::cout << "controller -> addGraphObject" << std::endl;
+  m_model->addGraphObject();
+}
+
+void Controller::removeGraphObject() {
+  std::cout << "controller -> removeGraphObject" << std::endl;
+  m_model->removeGraphObject();
+}

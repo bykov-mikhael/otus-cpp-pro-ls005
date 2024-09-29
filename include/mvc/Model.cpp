@@ -13,3 +13,11 @@ void Model::exportDocument() {
 void Model::importDocument() {
   std::cout << "model -> importDocument" << std::endl;
 }
+
+void Model::addGraphObject() {
+  std::cout << "model -> addGraphObject" << std::endl;
+}
+
+void Model::removeGraphObject() {
+  std::cout << "model -> removeGraphObject" << std::endl;
+}

@@ -24,3 +24,13 @@ void View::importDocument() {
   m_controller->createDocument();
   std::cout << "view -> importDocument" << std::endl;
 }
+
+void View::addGraphObject() {
+  m_controller->addGraphObject();
+  std::cout << "view -> addGraphObject" << std::endl;
+}
+
+void View::removeGraphObject() {
+  m_controller->removeGraphObject();
+  std::cout << "view -> removeGraphObject" << std::endl;
+}

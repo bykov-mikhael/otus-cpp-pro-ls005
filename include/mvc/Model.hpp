@@ -7,4 +7,6 @@ class Model : public IModel {
   void createDocument() override;
   void exportDocument() override;
   void importDocument() override;
+  void addGraphObject() override;
+  void removeGraphObject() override;
 };

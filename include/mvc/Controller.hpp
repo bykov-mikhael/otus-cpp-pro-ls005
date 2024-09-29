@@ -13,6 +13,8 @@ class Controller : public IController {
   void createDocument() override;
   void exportDocument() override;
   void importDocument() override;
+  void addGraphObject() override;
+  void removeGraphObject() override;
 
  private:
   std::shared_ptr<IModel> m_model;

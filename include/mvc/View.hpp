@@ -13,6 +13,8 @@ class View : public IView {
   void createDocument() override;
   void exportDocument() override;
   void importDocument() override;
+  void addGraphObject() override;
+  void removeGraphObject() override;
 
  private:
   std::shared_ptr<IController> m_controller;
